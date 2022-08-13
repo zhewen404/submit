@@ -1,0 +1,27 @@
+#gem5 build submission file
+universe = docker
+docker_image = gcr.io/gem5-test/ubuntu-20.04_all-dependencies
+
+log = log/spec17/ua/$(Cluster)_$(Process).log
+error = err/spec17/ua/$(Cluster)_$(Process).err
+output = out/spec17/ua/$(Cluster)_$(Process).out
+
+case $ProcId in
+  0)
+     
+
+executable = scripts/ua/spec17_c64_util100.sh
+arguments = $(ProcId)
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_input_files = gem5-myfeature, resources/spec-2017-speccast1.tar.gz, resources/x86-linux-kernel-4.19.83
+
+request_cpus = 1
+request_memory = 64GB
+request_disk = 64GB
+
+notify_user = zhewen.pan@wisc.edu
+notification = always
+
+queue 13
