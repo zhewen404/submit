@@ -16,4 +16,4 @@ case $1 in
     exit 1;;
 esac
 
-./scripts/ua/run.sh $core $mix $sync $util
+./scripts/ua/run.sh $core $mix $sync $util 0
