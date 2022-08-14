@@ -43,6 +43,8 @@ case $5 in
     exit 1;; 
 esac
 
+mem=${core}GB
+
 # copy ckpt from staging
 echo "cp /staging/zpan52/ckpt/spec2017-speccast_roi/c${core}-${mem}/x86-linux_set${setkey}_sync${sync}_util${util}.tar.gz ./"
 cp /staging/zpan52/ckpt/spec2017-speccast_roi/c${core}-${mem}/x86-linux_set${setkey}_sync${sync}_util${util}.tar.gz ./
