@@ -14,8 +14,8 @@ when_to_transfer_output = ON_EXIT
 transfer_input_files = gem5-myfeature, resources/spec-2017-speccast1.tar.gz, resources/x86-linux-kernel-4.19.83
 
 request_cpus = 1
-request_memory = 64GB
-request_disk = 64GB
+request_memory = 80GB
+request_disk = 80GB
 
 notify_user = zhewen.pan@wisc.edu
 notification = always
