@@ -1,0 +1,11 @@
+cp: cannot stat '/staging/zpan52/ckpt/spec2017-speccast_roi/c64-/x86-linux_set9_sync4_util100.tar.gz': No such file or directory
+tar (child): x86-linux_set9_sync4_util100.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+rm: cannot remove 'x86-linux_set9_sync4_util100.tar.gz': No such file or directory
+cp: cannot stat '../x86-linux_set9_sync4_util100/set9_sync4_c64_u100.rcS': No such file or directory
+
+real	0m1.487s
+user	0m1.428s
+sys	0m0.053s
