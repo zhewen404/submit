@@ -2,32 +2,14 @@
 #run.sh core mix sync util experiment
 if [ $# -ne 5 ] 
 then 
-    echo Usage: ./run.sh core mix sync util experiment
+    echo Usage: ./run.sh core setkey sync util experiment
     exit
 fi
 
 core=$1
-case $2 in
-  light) 
-    setkey=11
-    ;;
-  medium) 
-    setkey=12
-    ;;	
-  heavy) 
-    setkey=9
-    ;;
-  hetero) 
-    setkey=10
-    ;;
-  *) 
-    echo "bad mix id" ;
-    exit 1;; 
-esac
+setkey=$2
 sync=$3
 case $4 in
-  25) util=25;;
-  50) util=50;;
   100) util=100;;
   *) 
     echo "bad util option" ;
@@ -36,8 +18,23 @@ esac
 
 experiment=$5
 case $5 in
-  0) 
-    name=uniqueAccess;;
+  1) 
+    name=base0;;
+  2) 
+    name=base1;;
+  3) 
+    name=base2;;
+  4) 
+    name=base3;;
+  5) 
+    name=base4;;
+  6) 
+    name=base5;;
+  7) 
+    name=base6;;
+  8) 
+    name=base7;;
+  
   *) 
     echo "bad experiment option" ;
     exit 1;; 
@@ -45,15 +42,15 @@ esac
 
 mem=${core}GB
 
-# copy ckpt from staging
-echo "cp /staging/zpan52/ckpt/spec2017-speccast_roi/c${core}-${mem}/x86-linux_set${setkey}_sync${sync}_util${util}.tar.gz ./"
-cp /staging/zpan52/ckpt/spec2017-speccast_roi/c${core}-${mem}/x86-linux_set${setkey}_sync${sync}_util${util}.tar.gz ./
+# ckpt are already inplace!!!
+# echo "cp /staging/zpan52/ckpt/spec2017-speccast_roi/c${core}-${mem}/x86-linux_set${setkey}_sync${sync}_util${util}.tar.gz ./"
+# cp /staging/zpan52/ckpt/spec2017-speccast_roi/c${core}-${mem}/x86-linux_set${setkey}_sync${sync}_util${util}.tar.gz ./
 # untar ckpt
-echo "tar -xzvf x86-linux_set${setkey}_sync${sync}_util${util}.tar.gz"
-tar -xzvf x86-linux_set${setkey}_sync${sync}_util${util}.tar.gz
+# echo "tar -xzvf x86-linux_set${setkey}_sync${sync}_util${util}.tar.gz"
+# tar -xzvf x86-linux_set${setkey}_sync${sync}_util${util}.tar.gz
 # rm tar file
-echo "rm x86-linux_set${setkey}_sync${sync}_util${util}.tar.gz"
-rm x86-linux_set${setkey}_sync${sync}_util${util}.tar.gz
+# echo "rm x86-linux_set${setkey}_sync${sync}_util${util}.tar.gz"
+# rm x86-linux_set${setkey}_sync${sync}_util${util}.tar.gz
 
 # untar image
 echo "tar -xzvf spec-2017-speccast1.tar.gz"
