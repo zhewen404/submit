@@ -1,3 +1,4 @@
 gem5-myfeature
 resources
 docker_stderr
+log
