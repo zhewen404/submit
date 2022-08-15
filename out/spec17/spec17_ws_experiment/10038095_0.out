@@ -1,0 +1,20 @@
+tar -xzvf spec-2017-speccast1.tar.gz
+spec-2017-speccast1
+cd gem5-myfeature
+./my_scripts/fs/spec2017-speccast/ckpt_resume_condor.sh 1 1 2 100 1
+Running gem5 for set1_sync2_util100...
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.1
+gem5 compiled Aug 14 2022 22:14:40
+gem5 started Aug 15 2022 14:25:19
+gem5 executing on zpan52-10038095.0-e2488.chtc.wisc.edu, pid 17
+command line: ./build/X86_MESI_Three_Level/gem5.fast -d my_STATS/base0/c1_set1_sync2_u100_1 configs/example/fs.py --kernel ../x86-linux-kernel-4.19.83 --disk-image ../spec-2017-speccast1 --work-end-exit-count 1 --num-cpus=1 --num-dirs=4 --mem-size=1GB --checkpoint-dir=ckpt/x86-linux/spec2017-speccast_roi/c1-1GB/x86-linux_set1_sync2_util100 --checkpoint-restore=1 --ruby --restore-with-cpu O3CPU --num-l2caches=1 --l0d_size=32kB --l0i_size=32kB --l0d_assoc=8 --l0i_assoc=8 --l1d_size=32kB --l1d_assoc=512 --l2_size=1MB --l2_assoc=32 --network=garnet --topology=MeshDirCorners_XY --mesh-rows=1 --vcs-per-vnet=8 --router-latency=1
+
+info: Standard input is not a terminal, disabling listeners.
+fatal: checkpoint dir ckpt/x86-linux/spec2017-speccast_roi/c1-1GB/x86-linux_set1_sync2_util100 does not exist!
+cd ..
+tar -czf base0_c1_set1_sync2_u100_20220815-142519.tar gem5-myfeature/my_STATS/base0/c1_set1_sync2_u100_1
+rm spec-2017-speccast1
+rm -rf x86-linux_set1_sync2_util100

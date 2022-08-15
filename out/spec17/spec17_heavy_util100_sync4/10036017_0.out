@@ -1,0 +1,24 @@
+cp /staging/zpan52/ckpt/spec2017-speccast_roi/c64-/x86-linux_set9_sync4_util100.tar.gz ./
+tar -xzvf x86-linux_set9_sync4_util100.tar.gz
+rm x86-linux_set9_sync4_util100.tar.gz
+tar -xzvf spec-2017-speccast1.tar.gz
+spec-2017-speccast1
+cd gem5-myfeature
+./my_scripts/fs/spec2017-speccast/ckpt_resume_condor.sh 64 9 4 100 0
+Running gem5 for set9_sync4_util100...
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.1
+gem5 compiled Aug  8 2022 10:56:35
+gem5 started Aug 14 2022 04:56:02
+gem5 executing on zpan52-10036017.0-e2488.chtc.wisc.edu, pid 21
+command line: ./build/X86_MESI_Three_Level_Unique_Access/gem5.fast -d my_STATS/uniqueAccess/c64_set9_sync4_u100_0 configs/example/fs.py --kernel ../x86-linux-kernel-4.19.83 --disk-image ../spec-2017-speccast1 --work-end-exit-count 64 --num-cpus=64 --num-dirs=4 --mem-size=64GB --checkpoint-dir=../x86-linux_set9_sync4_util100 --checkpoint-restore=1 --ruby --restore-with-cpu O3CPU --num-l2caches=64 --l0d_size=32kB --l0i_size=32kB --l0d_assoc=8 --l0i_assoc=8 --l1d_size=128kB --l1d_assoc=8 --l2_size=1MB --l2_assoc=32 --network=garnet --topology=MeshDirCorners_XY --mesh-rows=8 --vcs-per-vnet=8 --router-latency=1
+
+info: Standard input is not a terminal, disabling listeners.
+warn: Physical memory size specified is 64GB which is greater than 3GB.  Twice the number of memory controllers would be created.
+fatal: checkpoint dir ../x86-linux_set9_sync4_util100 does not exist!
+cd ..
+tar -czf uniqueAccess_c64_set9_sync4_u100_20220814-045604.tar gem5-myfeature/my_STATS/uniqueAccess/c64_set9_sync4_u100_0
+rm spec-2017-speccast1
+rm -rf x86-linux_set9_sync4_util100

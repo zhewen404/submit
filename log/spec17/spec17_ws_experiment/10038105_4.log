@@ -1,0 +1,52 @@
+000 (10038105.004.000) 2022-08-15 10:16:32 Job submitted from host: <128.104.101.92:9618?addrs=128.104.101.92-9618+[2607-f388-107c-501-a236-9fff-fe3c-caa8]-9618&alias=submit2.chtc.wisc.edu&noUDP&sock=schedd_4918_eadb>
+...
+040 (10038105.004.000) 2022-08-15 10:17:32 Entered queue to transfer input files
+	Transferring to host: <128.105.69.89:9618?addrs=128.105.69.89-9618+[2607-f388-2200-100-1270-fdff-fe56-41cc]-9618&alias=e4000.chtc.wisc.edu&noUDP&sock=slot2_20_1291867_eb4e_7247>
+...
+040 (10038105.004.000) 2022-08-15 10:20:06 Started transferring input files
+	Seconds spent in queue: 154
+...
+040 (10038105.004.000) 2022-08-15 10:22:07 Finished transferring input files
+...
+001 (10038105.004.000) 2022-08-15 10:22:41 Job executing on host: <128.105.69.89:9618?addrs=128.105.69.89-9618+[2607-f388-2200-100-1270-fdff-fe56-41cc]-9618&alias=e4000.chtc.wisc.edu&noUDP&sock=startd_12141_4b6c>
+...
+006 (10038105.004.000) 2022-08-15 10:22:50 Image size of job updated: 1
+	1  -  MemoryUsage of job (MB)
+	1184  -  ResidentSetSize of job (KB)
+...
+006 (10038105.004.000) 2022-08-15 10:27:50 Image size of job updated: 595
+	595  -  MemoryUsage of job (MB)
+	610296  -  ResidentSetSize of job (KB)
+...
+006 (10038105.004.000) 2022-08-15 10:32:51 Image size of job updated: 603
+	603  -  MemoryUsage of job (MB)
+	618404  -  ResidentSetSize of job (KB)
+...
+006 (10038105.004.000) 2022-08-15 10:37:51 Image size of job updated: 606
+	606  -  MemoryUsage of job (MB)
+	621048  -  ResidentSetSize of job (KB)
+...
+006 (10038105.004.000) 2022-08-15 10:42:52 Image size of job updated: 609
+	609  -  MemoryUsage of job (MB)
+	623800  -  ResidentSetSize of job (KB)
+...
+006 (10038105.004.000) 2022-08-15 10:47:53 Image size of job updated: 611
+	611  -  MemoryUsage of job (MB)
+	626536  -  ResidentSetSize of job (KB)
+...
+006 (10038105.004.000) 2022-08-15 10:52:55 Image size of job updated: 616
+	616  -  MemoryUsage of job (MB)
+	631764  -  ResidentSetSize of job (KB)
+...
+006 (10038105.004.000) 2022-08-15 10:57:56 Image size of job updated: 619
+	619  -  MemoryUsage of job (MB)
+	634468  -  ResidentSetSize of job (KB)
+...
+006 (10038105.004.000) 2022-08-15 11:02:56 Image size of job updated: 622
+	622  -  MemoryUsage of job (MB)
+	637152  -  ResidentSetSize of job (KB)
+...
+006 (10038105.004.000) 2022-08-15 11:07:57 Image size of job updated: 624
+	624  -  MemoryUsage of job (MB)
+	639904  -  ResidentSetSize of job (KB)
+...

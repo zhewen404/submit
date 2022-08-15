@@ -1,0 +1,52 @@
+000 (10038105.008.000) 2022-08-15 10:16:32 Job submitted from host: <128.104.101.92:9618?addrs=128.104.101.92-9618+[2607-f388-107c-501-a236-9fff-fe3c-caa8]-9618&alias=submit2.chtc.wisc.edu&noUDP&sock=schedd_4918_eadb>
+...
+040 (10038105.008.000) 2022-08-15 10:17:32 Entered queue to transfer input files
+	Transferring to host: <128.105.69.99:9618?addrs=128.105.69.99-9618+[2607-f388-2200-100-1270-fdff-fe56-7674]-9618&alias=e4010.chtc.wisc.edu&noUDP&sock=slot1_4_271580_6d9d_2766>
+...
+040 (10038105.008.000) 2022-08-15 10:20:07 Started transferring input files
+	Seconds spent in queue: 155
+...
+040 (10038105.008.000) 2022-08-15 10:22:37 Finished transferring input files
+...
+001 (10038105.008.000) 2022-08-15 10:23:18 Job executing on host: <128.105.69.99:9618?addrs=128.105.69.99-9618+[2607-f388-2200-100-1270-fdff-fe56-7674]-9618&alias=e4010.chtc.wisc.edu&noUDP&sock=startd_12660_4914>
+...
+006 (10038105.008.000) 2022-08-15 10:23:26 Image size of job updated: 1
+	1  -  MemoryUsage of job (MB)
+	1168  -  ResidentSetSize of job (KB)
+...
+006 (10038105.008.000) 2022-08-15 10:28:26 Image size of job updated: 991
+	991  -  MemoryUsage of job (MB)
+	1015148  -  ResidentSetSize of job (KB)
+...
+006 (10038105.008.000) 2022-08-15 10:33:28 Image size of job updated: 1075
+	1075  -  MemoryUsage of job (MB)
+	1101632  -  ResidentSetSize of job (KB)
+...
+006 (10038105.008.000) 2022-08-15 10:38:28 Image size of job updated: 1159
+	1159  -  MemoryUsage of job (MB)
+	1187796  -  ResidentSetSize of job (KB)
+...
+006 (10038105.008.000) 2022-08-15 10:43:29 Image size of job updated: 1240
+	1240  -  MemoryUsage of job (MB)
+	1270772  -  ResidentSetSize of job (KB)
+...
+006 (10038105.008.000) 2022-08-15 10:48:30 Image size of job updated: 1326
+	1326  -  MemoryUsage of job (MB)
+	1358332  -  ResidentSetSize of job (KB)
+...
+006 (10038105.008.000) 2022-08-15 10:53:31 Image size of job updated: 1411
+	1411  -  MemoryUsage of job (MB)
+	1445460  -  ResidentSetSize of job (KB)
+...
+006 (10038105.008.000) 2022-08-15 10:58:31 Image size of job updated: 1497
+	1497  -  MemoryUsage of job (MB)
+	1533336  -  ResidentSetSize of job (KB)
+...
+006 (10038105.008.000) 2022-08-15 11:03:31 Image size of job updated: 1595
+	1595  -  MemoryUsage of job (MB)
+	1633992  -  ResidentSetSize of job (KB)
+...
+006 (10038105.008.000) 2022-08-15 11:08:32 Image size of job updated: 1701
+	1701  -  MemoryUsage of job (MB)
+	1742696  -  ResidentSetSize of job (KB)
+...

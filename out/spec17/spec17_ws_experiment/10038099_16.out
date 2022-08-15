@@ -1,0 +1,48 @@
+tar -xzvf spec-2017-speccast1.tar.gz
+spec-2017-speccast1
+cd gem5-myfeature
+./my_scripts/fs/spec2017-speccast/ckpt_resume_condor.sh 1 21 2 100 1
+Running gem5 for set21_sync2_util100...
+Global frequency set at 1000000000000 ticks per second
+build/X86_MESI_Three_Level/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (256 Mbytes)
+build/X86_MESI_Three_Level/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (256 Mbytes)
+build/X86_MESI_Three_Level/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (256 Mbytes)
+build/X86_MESI_Three_Level/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (256 Mbytes)
+build/X86_MESI_Three_Level/sim/kernel_workload.cc:46: info: kernel located at: ../x86-linux-kernel-4.19.83
+build/X86_MESI_Three_Level/dev/serial/terminal.cc:170: warn: Sockets disabled, not accepting terminal connections
+build/X86_MESI_Three_Level/base/statistics.hh:280: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+build/X86_MESI_Three_Level/base/statistics.hh:280: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+build/X86_MESI_Three_Level/base/statistics.hh:280: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+build/X86_MESI_Three_Level/base/statistics.hh:280: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+build/X86_MESI_Three_Level/mem/ruby/network/garnet/GarnetNetwork.cc:107: info: Garnet version 3.0
+build/X86_MESI_Three_Level/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+build/X86_MESI_Three_Level/dev/intel_8254_timer.cc:128: warn: Reading current count from inactive timer.
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.1
+gem5 compiled Aug 14 2022 22:14:40
+gem5 started Aug 15 2022 14:46:28
+gem5 executing on zpan52-10038099.16-e4013.chtc.wisc.edu, pid 17
+command line: ./build/X86_MESI_Three_Level/gem5.fast -d my_STATS/base0/c1_set21_sync2_u100_1 configs/example/fs.py --kernel ../x86-linux-kernel-4.19.83 --disk-image ../spec-2017-speccast1 --work-end-exit-count 1 --num-cpus=1 --num-dirs=4 --mem-size=1GB --checkpoint-dir=../c1-1GB/x86-linux_set21_sync2_util100 --checkpoint-restore=1 --ruby --restore-with-cpu O3CPU --num-l2caches=1 --l0d_size=32kB --l0i_size=32kB --l0d_assoc=8 --l0i_assoc=8 --l1d_size=32kB --l1d_assoc=512 --l2_size=1MB --l2_assoc=32 --network=garnet --topology=MeshDirCorners_XY --mesh-rows=1 --vcs-per-vnet=8 --router-latency=1
+
+info: Standard input is not a terminal, disabling listeners.
+Switch at curTick count:10000
+warn: system.workload.acpi_description_table_pointer.rsdt adopting orphan SimObject param 'entries'
+build/X86_MESI_Three_Level/sim/simulate.cc:194: info: Entering event queue @ 16533419833500.  Starting simulation...
+build/X86_MESI_Three_Level/sim/simulate.cc:194: info: Entering event queue @ 16533419843500.  Starting simulation...
+build/X86_MESI_Three_Level/mem/ruby/system/Sequencer.cc:611: warn: Replacement policy updates recently became the responsibility of SLICC state machines. Make sure to setMRU() near callbacks in .sm files!
+build/X86_MESI_Three_Level/sim/power_state.cc:105: warn: PowerState: Already in the requested power state, request ignored
+Switched CPUS @ tick 16533419843500
+switching cpus
+**** REAL SIMULATION ****
+build/X86_MESI_Three_Level/sim/simulate.cc:194: info: Entering event queue @ 16533427893500.  Starting simulation...
+build/X86_MESI_Three_Level/dev/x86/pc.cc:117: warn: Don't know what interrupt to clear for console.
+build/X86_MESI_Three_Level/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'verw_Mw_or_Rv' unimplemented
+build/X86_MESI_Three_Level/arch/generic/debugfaults.hh:145: warn: MOVNTDQ: Ignoring non-temporal hint, modeling as cacheable!
+build/X86_MESI_Three_Level/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'verw_Mw_or_Rv' unimplemented
+Exiting @ tick 16596666234501 because work items exit count reached
+cd ..
+tar -czf base0_c1_set21_sync2_u100_20220815-144821.tar gem5-myfeature/my_STATS/base0/c1_set21_sync2_u100_1
+rm spec-2017-speccast1
+rm -rf x86-linux_set21_sync2_util100

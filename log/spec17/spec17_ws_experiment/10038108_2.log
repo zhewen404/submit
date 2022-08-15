@@ -1,0 +1,47 @@
+000 (10038108.002.000) 2022-08-15 10:17:00 Job submitted from host: <128.104.101.92:9618?addrs=128.104.101.92-9618+[2607-f388-107c-501-a236-9fff-fe3c-caa8]-9618&alias=submit2.chtc.wisc.edu&noUDP&sock=schedd_4918_eadb>
+...
+040 (10038108.002.000) 2022-08-15 10:21:17 Entered queue to transfer input files
+	Transferring to host: <128.105.69.101:9618?addrs=128.105.69.101-9618+[2607-f388-2200-100-1270-fdff-fe56-bae4]-9618&alias=e4012.chtc.wisc.edu&noUDP&sock=slot1_6_745379_af80_19897>
+...
+040 (10038108.002.000) 2022-08-15 10:24:42 Started transferring input files
+	Seconds spent in queue: 205
+...
+040 (10038108.002.000) 2022-08-15 10:25:17 Finished transferring input files
+...
+001 (10038108.002.000) 2022-08-15 10:25:26 Job executing on host: <128.105.69.101:9618?addrs=128.105.69.101-9618+[2607-f388-2200-100-1270-fdff-fe56-bae4]-9618&alias=e4012.chtc.wisc.edu&noUDP&sock=startd_181518_d415>
+...
+006 (10038108.002.000) 2022-08-15 10:25:35 Image size of job updated: 1
+	1  -  MemoryUsage of job (MB)
+	1176  -  ResidentSetSize of job (KB)
+...
+006 (10038108.002.000) 2022-08-15 10:30:36 Image size of job updated: 624
+	624  -  MemoryUsage of job (MB)
+	639664  -  ResidentSetSize of job (KB)
+...
+006 (10038108.002.000) 2022-08-15 10:35:37 Image size of job updated: 659
+	659  -  MemoryUsage of job (MB)
+	675180  -  ResidentSetSize of job (KB)
+...
+006 (10038108.002.000) 2022-08-15 10:40:38 Image size of job updated: 665
+	665  -  MemoryUsage of job (MB)
+	681816  -  ResidentSetSize of job (KB)
+...
+006 (10038108.002.000) 2022-08-15 10:41:54 Image size of job updated: 666
+	666  -  MemoryUsage of job (MB)
+	682844  -  ResidentSetSize of job (KB)
+...
+004 (10038108.002.000) 2022-08-15 10:42:34 Job was evicted.
+	(0) CPU times
+		Usr 0 00:15:49, Sys 0 00:00:14  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	7643968512  -  Run Bytes Received By Job
+	Partitionable Resources :       Usage  Request Allocated 
+	   Cpus                 :        0.00        1         1 
+	   Disk (KB)            : 19754064    20971520  22494605 
+	   IoHeavy              :                              0 
+	   Memory (MB)          :      666       10240     10240 
+...
+009 (10038108.002.000) 2022-08-15 10:43:00 Job was aborted.
+	via condor_rm (by user zpan52)
+...

@@ -1,0 +1,43 @@
+000 (10038110.006.000) 2022-08-15 10:17:08 Job submitted from host: <128.104.101.92:9618?addrs=128.104.101.92-9618+[2607-f388-107c-501-a236-9fff-fe3c-caa8]-9618&alias=submit2.chtc.wisc.edu&noUDP&sock=schedd_4918_eadb>
+...
+040 (10038110.006.000) 2022-08-15 10:21:18 Entered queue to transfer input files
+	Transferring to host: <128.105.69.94:9618?addrs=128.105.69.94-9618+[2607-f388-2200-100-1270-fdff-fe56-3dcc]-9618&alias=e4005.chtc.wisc.edu&noUDP&sock=slot1_7_3648970_3759_4411>
+...
+040 (10038110.006.000) 2022-08-15 10:25:18 Started transferring input files
+	Seconds spent in queue: 240
+...
+040 (10038110.006.000) 2022-08-15 10:28:28 Finished transferring input files
+...
+001 (10038110.006.000) 2022-08-15 10:28:31 Job executing on host: <128.105.69.94:9618?addrs=128.105.69.94-9618+[2607-f388-2200-100-1270-fdff-fe56-3dcc]-9618&alias=e4005.chtc.wisc.edu&noUDP&sock=startd_194940_343d>
+...
+006 (10038110.006.000) 2022-08-15 10:28:40 Image size of job updated: 1
+	1  -  MemoryUsage of job (MB)
+	1176  -  ResidentSetSize of job (KB)
+...
+006 (10038110.006.000) 2022-08-15 10:33:41 Image size of job updated: 983
+	983  -  MemoryUsage of job (MB)
+	1007128  -  ResidentSetSize of job (KB)
+...
+006 (10038110.006.000) 2022-08-15 10:38:41 Image size of job updated: 1016
+	1016  -  MemoryUsage of job (MB)
+	1040844  -  ResidentSetSize of job (KB)
+...
+006 (10038110.006.000) 2022-08-15 10:42:22 Image size of job updated: 1043
+	1043  -  MemoryUsage of job (MB)
+	1068956  -  ResidentSetSize of job (KB)
+...
+004 (10038110.006.000) 2022-08-15 10:43:01 Job was evicted.
+	(0) CPU times
+		Usr 0 00:13:16, Sys 0 00:00:17  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	7643968512  -  Run Bytes Received By Job
+	Partitionable Resources :       Usage  Request Allocated 
+	   Cpus                 :        0.00        1         1 
+	   Disk (KB)            : 19754065    20971520  22494605 
+	   IoHeavy              :                              0 
+	   Memory (MB)          :     1043       10240     10240 
+...
+009 (10038110.006.000) 2022-08-15 10:43:12 Job was aborted.
+	via condor_rm (by user zpan52)
+...

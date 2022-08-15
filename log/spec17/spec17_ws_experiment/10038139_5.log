@@ -1,0 +1,40 @@
+000 (10038139.005.000) 2022-08-15 10:50:36 Job submitted from host: <128.104.101.92:9618?addrs=128.104.101.92-9618+[2607-f388-107c-501-a236-9fff-fe3c-caa8]-9618&alias=submit2.chtc.wisc.edu&noUDP&sock=schedd_4918_eadb>
+...
+040 (10038139.005.000) 2022-08-15 10:51:22 Started transferring input files
+	Transferring to host: <128.105.69.118:9618?addrs=128.105.69.118-9618+[2607-f388-2200-100-1270-fdff-fe56-ccac]-9618&alias=e2501.chtc.wisc.edu&noUDP&sock=slot2_8_16157_d16a_4049>
+...
+040 (10038139.005.000) 2022-08-15 10:53:05 Finished transferring input files
+...
+001 (10038139.005.000) 2022-08-15 10:54:28 Job executing on host: <128.105.69.118:9618?addrs=128.105.69.118-9618+[2607-f388-2200-100-1270-fdff-fe56-ccac]-9618&alias=e2501.chtc.wisc.edu&noUDP&sock=startd_11850_b15d>
+...
+006 (10038139.005.000) 2022-08-15 10:54:39 Image size of job updated: 1
+	1  -  MemoryUsage of job (MB)
+	1168  -  ResidentSetSize of job (KB)
+...
+006 (10038139.005.000) 2022-08-15 10:59:40 Image size of job updated: 655
+	655  -  MemoryUsage of job (MB)
+	671460  -  ResidentSetSize of job (KB)
+...
+006 (10038139.005.000) 2022-08-15 11:04:41 Image size of job updated: 672
+	672  -  MemoryUsage of job (MB)
+	688840  -  ResidentSetSize of job (KB)
+...
+006 (10038139.005.000) 2022-08-15 11:09:13 Image size of job updated: 676
+	676  -  MemoryUsage of job (MB)
+	692376  -  ResidentSetSize of job (KB)
+...
+004 (10038139.005.000) 2022-08-15 11:09:13 Job was evicted.
+	(0) CPU times
+		Usr 0 00:14:29, Sys 0 00:00:14  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	7643974144  -  Run Bytes Received By Job
+	Partitionable Resources :       Usage  Request Allocated 
+	   Cpus                 :        0.00        1         1 
+	   Disk (KB)            : 19754070    20971520  21747553 
+	   IoHeavy              :                              0 
+	   Memory (MB)          :      676       10240     10240 
+...
+009 (10038139.005.000) 2022-08-15 11:09:13 Job was aborted.
+	via condor_rm (by user zpan52)
+...

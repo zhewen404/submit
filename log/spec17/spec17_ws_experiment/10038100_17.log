@@ -1,0 +1,29 @@
+000 (10038100.017.000) 2022-08-15 09:54:00 Job submitted from host: <128.104.101.92:9618?addrs=128.104.101.92-9618+[2607-f388-107c-501-a236-9fff-fe3c-caa8]-9618&alias=submit2.chtc.wisc.edu&noUDP&sock=schedd_4918_eadb>
+...
+040 (10038100.017.000) 2022-08-15 09:54:45 Started transferring input files
+	Transferring to host: <128.105.69.104:9618?addrs=128.105.69.104-9618+[2607-f388-2200-100-1270-fdff-fe56-bccc]-9618&alias=e4015.chtc.wisc.edu&noUDP&sock=slot1_1_1360259_452c_20345>
+...
+040 (10038100.017.000) 2022-08-15 09:56:13 Finished transferring input files
+...
+001 (10038100.017.000) 2022-08-15 09:56:14 Job executing on host: <128.105.69.104:9618?addrs=128.105.69.104-9618+[2607-f388-2200-100-1270-fdff-fe56-bccc]-9618&alias=e4015.chtc.wisc.edu&noUDP&sock=startd_193827_c754>
+...
+006 (10038100.017.000) 2022-08-15 09:56:23 Image size of job updated: 1
+	1  -  MemoryUsage of job (MB)
+	1164  -  ResidentSetSize of job (KB)
+...
+006 (10038100.017.000) 2022-08-15 10:01:24 Image size of job updated: 437
+	437  -  MemoryUsage of job (MB)
+	447656  -  ResidentSetSize of job (KB)
+...
+006 (10038100.017.000) 2022-08-15 10:06:25 Image size of job updated: 443
+	443  -  MemoryUsage of job (MB)
+	454392  -  ResidentSetSize of job (KB)
+...
+006 (10038100.017.000) 2022-08-15 10:11:26 Image size of job updated: 448
+	448  -  MemoryUsage of job (MB)
+	459088  -  ResidentSetSize of job (KB)
+...
+006 (10038100.017.000) 2022-08-15 10:21:28 Image size of job updated: 461
+	461  -  MemoryUsage of job (MB)
+	473068  -  ResidentSetSize of job (KB)
+...
