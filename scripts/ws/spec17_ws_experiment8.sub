@@ -15,7 +15,7 @@ transfer_input_files = gem5-myfeature, scripts, resources/spec-2017-speccast1.ta
 
 request_cpus = 1
 request_memory = 10GB
-request_disk = 10GB
+request_disk = 20GB
 
 notify_user = zhewen.pan@wisc.edu
 notification = always
