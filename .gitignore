@@ -1,6 +1,5 @@
 gem5-myfeature
 resources
-err
 log
 out
 docker_stderr
