@@ -6,8 +6,8 @@ log = log/spec17/spec17_ws_experiment/$(Cluster)_$(Process).log
 error = err/spec17/spec17_ws_experiment/$(Cluster)_$(Process).err
 output = out/spec17/spec17_ws_experiment/$(Cluster)_$(Process).out
 
-executable = scripts/ws/spec17_ws_experiment$1.sh
-arguments = $2
+executable = scripts/ws/spec17_ws_experiment9.sh
+arguments = $(ProcId)
 
 should_transfer_files = YES
 when_to_transfer_output = ON_EXIT
@@ -20,4 +20,4 @@ request_disk = 20GB
 notify_user = zhewen.pan@wisc.edu
 notification = always
 
-queue 1
+queue 21
