@@ -50,3 +50,11 @@
 	598  -  MemoryUsage of job (MB)
 	613084  -  ResidentSetSize of job (KB)
 ...
+006 (10038104.020.000) 2022-08-15 11:14:02 Image size of job updated: 601
+	601  -  MemoryUsage of job (MB)
+	615864  -  ResidentSetSize of job (KB)
+...
+006 (10038104.020.000) 2022-08-15 11:19:02 Image size of job updated: 601
+	601  -  MemoryUsage of job (MB)
+	616124  -  ResidentSetSize of job (KB)
+...
