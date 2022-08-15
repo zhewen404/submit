@@ -34,7 +34,8 @@ case $5 in
     name=base6;;
   8) 
     name=base7;;
-  
+  9)
+    name=base8;;
   *) 
     echo "bad experiment option" ;
     exit 1;; 
