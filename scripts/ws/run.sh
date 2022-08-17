@@ -53,6 +53,13 @@ mem=${core}GB
 # echo "rm x86-linux_set${setkey}_sync${sync}_util${util}.tar.gz"
 # rm x86-linux_set${setkey}_sync${sync}_util${util}.tar.gz
 
+# untar ckpt
+echo "tar -xzvf sync${sync}.tar.gz"
+tar -xzvf sync${sync}.tar.gz
+# rm tar file
+echo "rm sync${sync}.tar.gz"
+rm sync${sync}.tar.gz
+
 # untar image
 echo "tar -xzvf spec-2017-speccast1.tar.gz"
 tar -xzvf spec-2017-speccast1.tar.gz

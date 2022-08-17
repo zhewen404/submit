@@ -33,6 +33,6 @@ esac
 
 core=1
 util=100
-sync=2
+sync=4
 experiment=2
 ./scripts/ws/run.sh $core $setkey $sync $util $experiment
